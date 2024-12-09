@@ -1,0 +1,86 @@
+/* Reset básico */
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    scroll-behavior: smooth; /* Animação suave para os links internos */
+}
+
+/* Cabeçalho */
+header {
+    background: #c376ca;
+    color: rgb(142, 16, 146);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(142, 16, 146);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo para seções */
+section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #faf3f3;
+}
+
+section h2 {
+    color: rgb(142, 16, 146);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    background: rgb(142, 16, 146);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+form button:hover {
+    background: #7529d8;
+}
+
+/* Rodapé */
+footer {
+    background: #7e2677;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
